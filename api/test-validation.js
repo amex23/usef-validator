@@ -80,20 +80,3 @@ export default async function handler(req, res) {
     });
   }
 }
-```
-
----
-
-## **Deploy and Test**
-
-### **1. Add the file to your project:**
-
-In your `usef-validator` folder, create the file:
-```
-usef-validator/
-├── api/
-│   ├── validate-usef.js      (existing)
-│   └── test-validation.js    (new - add this)
-├── .gitignore
-├── README.md
-└── vercel.json
